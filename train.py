@@ -2,8 +2,6 @@ from LR_vector import gradient_descent,cost,prediction
 import pandas as pd
 
 data= pd.read_csv('data.csv')
-
-
 #Convert DataFrame to Array for fastest multipication...
 x=data.Hours_Studied.to_numpy()
 y=data.Exam_Score.to_numpy()
